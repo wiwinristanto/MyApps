@@ -17,13 +17,17 @@ Route::get('/home', function () {
     return view('home');
 });
 Route::get('/about', function () {
-    return view('about');
+    return view('about', [
+        "name" => "Wiwin Ristanto",
+        "email" => "wiwinristanto94@gmail.com",
+    
+    ]);
 });
 
 Route::get('/blog', function () {
     return view('blog');
 });
 
-Route::get('/post', function () {
+Route::get('/posts', function () {
     return view('posts');
 });

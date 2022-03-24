@@ -8,9 +8,10 @@
     <title>Latihan Laravel 1</title>
 </head>
 <body>
+    
     <h1>Halaman About</h1>
-    <h1>Wiwin Ristanto</h1>
-    <p>wiwinristanto@gmail.com</p>
+    <h1><?= $name; ?></h1>
+    <p><?= $email; ?></p>
     <img src="img/img_1.jpg" alt="Wiwin R" width="200px">
 </body>
 </html>
